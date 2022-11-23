@@ -1,0 +1,29 @@
+.button {
+  width: 46%;
+  display: block;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(61, 169, 158);
+  outline: 1px solid black;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:active {
+  font-size: 21px;
+}
+.increase:hover {
+  background-color: greenyellow;
+}
+
+.decrease:hover {
+  background-color: orangered;
+}
+
+.reset:hover {
+  background-color: red;
+}
